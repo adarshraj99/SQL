@@ -7,3 +7,5 @@ Top one is called Root node and all the intermidiate ones are called Intermidiat
 Data are arranged by compiler in diffrent ranges in different intermidiate rows to saperate the data pages and to create pointers. see below: 
 ![image](https://github.com/adarshraj99/MySQL/assets/122180050/b7089962-57f7-49ad-a008-fe39f4e7b787)
 Here, in 3 steps only SQL server found the needed data because of **data clustring** and tree structure. First with clustered data on number ranges in imtermediate rows ,then with EmployeeID in the Data Pages. 
+In real code term: Create table ,then create columns ,create column datas: 
+![image](https://github.com/adarshraj99/MySQL/assets/122180050/005cf57e-4a75-4dc9-b62f-8ba2dbe957ac)
