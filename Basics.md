@@ -7,4 +7,7 @@ Connection string : To connect the SQL with other languages. (My : Server=localh
 Log folder : reports for starting of SQL and errors are reported here. (My: C:\Program Files\Microsoft SQL Server\160\Setup Bootstrap\Log\20230710_101705)
 Installation Media forlder: C:\SQL2022\Express_ENU
 Resource folder: C:\Program Files\Microsoft SQL Server\160\SSEI\Resources.
-* SSMS: SQL Server Management Studio. 
+* #### SSMS:
+* SQL Server Management Studio. 
+* #### column size:
+  The column size of the data is defines as the maximum number of digits used by the data types of column. Think it as excel column with any column having lenghty data. 
