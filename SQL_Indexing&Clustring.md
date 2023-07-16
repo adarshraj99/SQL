@@ -9,3 +9,4 @@ Data are arranged by compiler in diffrent ranges in different intermidiate rows 
 Here, in 3 steps only SQL server found the needed data because of **data clustring** and tree structure. First with clustered data on number ranges in imtermediate rows ,then with EmployeeID in the Data Pages. 
 In real code term: Create table ,then create columns ,create column datas: 
 ![image](https://github.com/adarshraj99/MySQL/assets/122180050/005cf57e-4a75-4dc9-b62f-8ba2dbe957ac)
+If need to find any table data by a non Primary Key. SQL need to iterate over lots of data one by one and may timeout. Number of rows read can be read by 'Clustered Index scan' in SQL server managememt studio tool.
