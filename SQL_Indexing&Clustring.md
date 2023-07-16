@@ -17,4 +17,5 @@ Creating index on non-clustered data In Employees table in Name Column in Employ
 ![image](https://github.com/adarshraj99/MySQL/assets/122180050/80a9efef-7e34-44af-95e8-099881cd8135)
 
 In non-clustered index we don't have Primary key. we have row_locators and Key_value pairs. The non-primary key is sorted alphabetically and assigned their row primary keys by compiler. eg: If we are searching by non-primary key name then name is sorted and assigned the primary key EmployeeID. Then, compiler searches with sorted name like a dictionary search(book dictionary) then switches to clustered data table and gets other datas.
+Image of Un-clustered data table: 
 ![image](https://github.com/adarshraj99/MySQL/assets/122180050/6c935c1b-1e35-40da-a9de-4ce93cfedd1b)
