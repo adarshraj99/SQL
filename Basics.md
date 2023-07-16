@@ -11,3 +11,5 @@ Resource folder: C:\Program Files\Microsoft SQL Server\160\SSEI\Resources.
   SQL Server Management Studio. 
 * #### column size:
   The column size of the data is defines as the maximum number of digits used by the data types of column. Think it as excel column with any column having lenghty data. 
+* #### Comment :
+* Use */ to comment SQL code. 
