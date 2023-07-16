@@ -13,5 +13,6 @@ In real code term: Create table ,then create columns ,create column datas:
 
 If need to find any table data by a non Primary Key. SQL need to iterate over lots of data one by one and may timeout. Number of rows read can be read by 'Clustered Index scan' module in SQL server managememt studio tool. Alternatively, **non-clustered** Index can be created on the searched column name(non-primary key). eg : 
 Creating index on non-clustered data In Employees table in Name Column in EmployeedDB . 
+
 ![image](https://github.com/adarshraj99/MySQL/assets/122180050/80a9efef-7e34-44af-95e8-099881cd8135)
 
