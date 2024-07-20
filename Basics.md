@@ -1,3 +1,5 @@
+* Structured Query Language. Developed by IBM in 1970. It can work on diffrent Databases like: MySQL, Oracle, PostgreSQL.
+* DBMS: DataBase is collections of organised and structured data controlled by a DataBase Management System. 
 * Get Free DB for practice: db4free.net > signup > get creds on mail.
 * The SWL file types: .sql and .db
 * website : https://mockaroo.com/ can be used to generate data for practice
