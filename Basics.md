@@ -15,4 +15,6 @@ Resource folder: C:\Program Files\Microsoft SQL Server\160\SSEI\Resources.
 * #### column size:
   The column size of the data is defines as the maximum number of digits used by the data types of column. Think it as excel column with any column having lenghty data. 
 * #### Comment :
-  Use */ to comment SQL code. 
+  Use */ to comment SQL code.
+* #### work SQL in CMD:
+  `mysql -u <provide username(mainly 'root')> -p`  --> Enter --> It will ask for password --> give pass and use in cmd. 
