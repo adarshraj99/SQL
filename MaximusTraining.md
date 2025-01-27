@@ -24,3 +24,18 @@ select segnamnt name , bytest/1024/1024 mb, from user segment where segment name
 
 
 Index ,uses, need
+
+
+Nested Loop Join vs. Hash Join
+#### Nested Loop Join:
+
+Process: Iterates through each row of the outer table and for each row, iterates through each row of the inner table.
+Efficiency: Best for small tables or when the join condition is highly selective.
+Memory Usage: Generally low, as it doesn't require additional memory structures.
+Performance: Can be slow for large tables due to the high number of comparisons.
+#### Hash Join:
+
+Process: Uses a hash table to match rows from the two tables based on the join key.
+Efficiency: More efficient for large tables, especially when the join keys are well-distributed.
+Memory Usage: Requires memory to build the hash table.
+Performance: Typically faster than nested loop joins for large datasets.
