@@ -1,9 +1,10 @@
-### DDL statement :
+## DDL statement :
 Data definition laguage. Used to define data in SQL. 
 
 There are 5 DDL SQL commands: 
 #### CREATE : 
 To create database, tables, triggers, and other objects. 
+
 syntaxes: 
 To create DB: Create Database Database_name
 To create Table: 
@@ -17,7 +18,22 @@ Age Int ,
 Marks Int , 
 );
 ```
+
 #### DROP : 
 #### ALTER : 
 #### TRUNCATE : 
 #### RENAME :  
+#### COMMENT:
+
+
+
+## DML :
+Data Manipulation Language. 
+
+#### UPDATE: 
+#### SETECT: 
+#### INSERT: 
+#### DELETE: 
+#### MERGE: 
+#### CALL: 
+#### LOCK TABLE: 
