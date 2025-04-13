@@ -7,7 +7,7 @@ It is for not accepting the duplicate values in the data table or column. It can
 #### Not Null: 
 It enforces a column to not accept the null values. 
 #### Primary Key: 
-It is combination of Not null and primary key. Here data must be unique and cannot be null too. If some column donot have any constraint applied to it and matches this criteria, compiler automatically applies this primary key constraint to it.
+It is combination of Not null and primary key. Here data must be unique and cannot be null too. If some column donot have any constraint(restriction on column to store type/range of data) applied to it and matches this criteria, compiler automatically applies this primary key constraint to it.
 #### Foreign Key: 
 It is a reference constraint. It says if a column or table is dependent on other column or table ,then other table or column must exist and valid.
 #### Default :
