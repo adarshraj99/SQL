@@ -1,3 +1,10 @@
+## Database Administration commands: 
+#### SHOW :
+SHOW table <table name>;
+SHOW tables;
+SHOW databases; : To see all the databases  
+
+
 ## DDL statement :
 Data definition laguage. Used to define data in SQL. 
 
@@ -15,7 +22,7 @@ Roll_No. Int ,
 First_Name Varchar (20) ,    
 Last_Name Varchar (20) ,    
 Age Int ,  
-Marks Int , 
+Marks float , 
 );
 ```
 
