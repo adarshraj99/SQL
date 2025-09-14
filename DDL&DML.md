@@ -3,7 +3,7 @@ Used to Keep data unique eg: emp_id . It is to avoid duplicate data entry in tab
 Can make a column as primary key while making table:
 ```
 Create table <empoyees>
-(name varchar(20),
+(name varchar(20),    # If name is >20. extra words will get `truncated`. 
 emp_id int not null,  # Primary key should not be null
 emp_pay double,
 Primary key (emp_id)
