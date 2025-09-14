@@ -1,3 +1,48 @@
+#### Primary Key: 
+Used to Keep data unique eg: emp_id . It is to avoid duplicate data entry in table. 
+Can make a column as primary key while making table:
+```
+Create table <empoyees>
+(name varchar(20),
+emp_id int not null,  # Primary key should not be null
+emp_pay double,
+Primary key (emp_id)
+)
+```
+
+#### Auto Increment:
+To automatcally increment the primary key value. ex:
+```
+Create table <empoyees>
+(name varchar(20),
+emp_id int not null Auto Increment,
+emp_pay double,
+Primary key (emp_id)
+)
+```
+
+#### Default: 
+To put default value if any value is not given while inserting the data.
+```
+create table emp
+(
+name varchar(20) not null default 'default name',
+age int not null default 00,
+pay double
+);
+```
+
+
+Can also alter table to make an already available key as primary key:
+```
+ALTER TABLE empoyee_details
+ADD PRIMARY KEY (emp_id);
+```
+If column contains NULL values and duplicates, Then first remove duplicates, update nulls,  set default to not null.
+
+#### To see warnings: 
+`set sql_mode = ''; ` Then after warning ,use : `show warnings;`
+ 
 ## Database Administration commands: 
 #### SHOW :
 `SHOW table <table name>;`
