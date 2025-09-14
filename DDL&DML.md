@@ -1,9 +1,13 @@
 ## Database Administration commands: 
 #### SHOW :
 `SHOW table <table name>;`
+
 `SHOW tables;`
+
 `SHOW databases;` : To see all the databases  
+
 `USE <database name>;` : To start using the database.
+
 `DESC <table name>` or `show columns from <table_name>` : To get all columns details from a table.
 
 What show tables will return if there is no table ?  Ans:  Empty set.
